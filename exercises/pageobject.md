@@ -9,7 +9,7 @@ Write in this document the interface of a page object class for this page.
 ## Answer
 
 ```java
-public class pageObjet {
+public interface  pageObjet {
 
 	public pageObjet(WebDriver driver)
 
@@ -18,17 +18,15 @@ public class pageObjet {
 	public String chatRoomURL()
 	public String padURL()
 
-
 	public String title()
 	public String location()
 	
-	public String name();    
-    public String email();
-    public Boolean hasICS();
-    public Boolean foodPreferences();
+	public String name() 
+	public String email()
+	public Boolean hasICS()
+	public Boolean foodPreferences()
 
 	public boolean hasMeal() 
 	public List<String> comments()
-
 }
 ```
